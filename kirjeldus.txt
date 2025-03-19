@@ -1,0 +1,4 @@
+DONE 1. Tehke Todo rakendusele "Edit" võimalus
+DONE 2.Aja formaat DD.MM.YYYY
+DONE(FIXED* gives error after refreshing page) 3. Sorteerite aja järgi 
+DONE 4. Loote võimaluse märkida taske erinevate prioriteetidega

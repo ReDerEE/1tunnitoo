@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div id="inputContainer">
+            <input type="text" name="title" id="title" placeholder="Title">
+            <input type="text" name="description" id="description" placeholder="Description">
+            <input type="date" name="date" id="date">
+            <select name="priority" id="priority"> <!--https://www.w3schools.com/html/html_form_elements.asp--->
+                <option value="" disabled selected>Prioriteet</option> <!--https://stackoverflow.com/questions/5805059/how-do-i-make-a-placeholder-for-a-select-box-->
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+        <div id="buttonContainer">
+            <button id="addButton">LISA</button>
+        </div>
+        <div id="taskList">
+            Taske pole
+        </div>
+    </div>
+</body>
+</html>
