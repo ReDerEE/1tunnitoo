@@ -58,7 +58,11 @@ body{
     background-color: aliceblue;
 }
 
-
+.edit:hover{
+    border: 2px solid black;
+    color: blue;
+    background-color: aliceblue;
+}
 
 .task>div, .task>button{
     padding-right: 10px;
