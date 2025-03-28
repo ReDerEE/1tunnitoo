@@ -40,7 +40,7 @@ class Todo{
         this.entries.push(new Entry(titleValue, descriptionValue, newDateValue, dateValue, priorityValue))
         this.entries.sort((a,b)=> a.helperDate.getTime() - b.helperDate.getTime()) //https://www.geeksforgeeks.org/sort-an-object-array-by-date-in-javascript/
         //console.log(this.entries)
-        console.log(dateValue)
+        //console.log(dateValue)
         this.saveEntry()
     }
 
@@ -116,7 +116,7 @@ class Todo{
             div.innerHTML = /*`<div>${entryIndex+1}</div>*/`<div>${entryValue.title}</div>
             <div>${entryValue.description}</div>
             <div>${entryValue.date}</div>
-            <div>${entryValue.priority}</div>`
+            <div class="priority${entryValue.priority}">${entryValue.priority}</div>`
             //JS-is saab back tick'idega kirjutada HTML'i
 
 

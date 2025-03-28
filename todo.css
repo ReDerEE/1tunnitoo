@@ -35,6 +35,16 @@ body{
     padding: 5px;
 }
 
+.priorityLow {
+    background-color: rgb(117, 149, 255);
+}
+.priorityMedium {
+    background-color: yellow;
+}
+.priorityHigh {
+    background-color: red;
+}
+
 .delete, .done, .edit{
     color: black;
     margin-left: 10px;
